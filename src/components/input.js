@@ -1,17 +1,15 @@
-import React from 'react';
-import Placeholder from './placeholder';
+import React, { Component } from "react";
 
-
-class Input extends React.Component{
-    render(){
-      return (
-          
-         <Placeholder placeholder='Ingresa tu código'/>
-          
-        
-      )
-    }
+class Input extends Component {
+  render() {
+    return (
+      <input
+        placeholder={this.props.placeholder}
+        className={this.props.classCSS}
+        type={this.props.typeInput}
+      ></input>
+    );
   }
+}
 
-  export default Input;
-
+export default Input;

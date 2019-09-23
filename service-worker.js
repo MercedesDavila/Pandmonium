@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Pandmonium/precache-manifest.e08257d72c87fe8fddfe43fe4c6a9dd8.js"
+  "/Pandmonium/precache-manifest.573efdafd6c2f26f474b25b43e954c6a.js"
 );
 
 self.addEventListener('message', (event) => {

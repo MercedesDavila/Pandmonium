@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9dd6d5203e2bd32c5a96f8f47737f215",
+    "revision": "235bddc732643e8902770afcfc330491",
     "url": "/Pandmonium/index.html"
   },
   {
-    "revision": "df16a2e8f322b5f496ff",
+    "revision": "9c08ddfecf660de50cda",
     "url": "/Pandmonium/static/css/main.f1865bf8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pandmonium/static/js/2.2fd49082.chunk.js"
   },
   {
-    "revision": "df16a2e8f322b5f496ff",
-    "url": "/Pandmonium/static/js/main.1b5135ce.chunk.js"
+    "revision": "9c08ddfecf660de50cda",
+    "url": "/Pandmonium/static/js/main.ad0f7703.chunk.js"
   },
   {
     "revision": "1787488641238b3a3d90",

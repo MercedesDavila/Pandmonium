@@ -36,8 +36,6 @@ export default props => {
         <br />
         <hr></hr>
       </Link>
-      
-      
     </Menu>
   );
 };

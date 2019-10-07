@@ -24,7 +24,7 @@ export default props => {
         <br />
         <hr></hr>
       </Link>
-      <Link>
+      <Link to="">
         Ventas del día
         <br />
         <br />

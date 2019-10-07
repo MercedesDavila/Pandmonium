@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import Delete from "../components/ux_resources/delete.png";
 
 class ItemList extends Component {
-  deleteOrden = () => {};
+  deleteOrden = () => {
+
+  }
+
 
   render() {
     return (
@@ -16,24 +19,24 @@ class ItemList extends Component {
               <th>Eliminar</th>
             </tr>
 
-            {this.props.itemName.map((producto, i) => {
+           {this.props.itemName.map((producto, i) => {
               return (
                 <tr key={i}>
                   <td>{producto.type}</td>
                   <td>{producto.option}</td>
-                  <td>x {producto.quantity}</td>
+                  <td> {producto.quantity}</td>
                   <td>
                     <button onClick={this.deleteOrden}>
                       <img src={Delete} alt="Eliminar"></img>
                     </button>
                   </td>
                 </tr>
-              );
+              )
             })}
           </tbody>
         </table>
       </div>
-    );
+    ) 
   }
 }
 

@@ -24,7 +24,7 @@ export default props => {
         <br />
         <hr></hr>
       </Link>
-      <Link to="">
+      <Link className="menu-item" to="/AccountList">
         Ventas del día
         <br />
         <br />

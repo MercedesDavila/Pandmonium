@@ -24,7 +24,7 @@ class ItemList extends Component {
                 <tr key={i}>
                   <td>{producto.type}</td>
                   <td>{producto.option}</td>
-                  <td> {producto.quantity}</td>
+                  <td> x {producto.quantity}</td>
                   <td>
                     <button onClick={this.deleteOrden}>
                       <img src={Delete} alt="Eliminar"></img>

@@ -18,6 +18,9 @@ import DataMenu from "../../menu.json";
 
 import BtnAdd from "../btn_add";
 
+
+
+
 class Menu extends Component {
   constructor(props) {
     super(props);
@@ -33,6 +36,9 @@ class Menu extends Component {
   getIndex = i => {
     this.setState({ indice: i });
   };
+  getOptionValue = i => {
+    this.setState({optionFood:i})
+  }
 
   ChangeValueSelect = e => {
     if (e.target.name === "select-type") {
@@ -69,6 +75,8 @@ class Menu extends Component {
             alt="Hamburguesas"
             getIndex={this.getIndex}
             indice={DataMenu[0].id}
+
+
           />
           <FoodBtn
             image={Pizza}
@@ -124,6 +132,7 @@ class Menu extends Component {
               className="comments"
               placeholder="Comentarios"
               onChange={this.AddComent}
+              name="comments"
             ></textarea>
             <BtnAdd
               className="btn-green btn-green-add"

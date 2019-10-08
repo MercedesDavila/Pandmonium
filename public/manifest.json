@@ -41,6 +41,6 @@
 ],
   "start_url": "index.html?launcher=true",
   "display": "standalone",
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff"
+  "theme_color": "rgba(14, 102, 66, 1)",
+  "background_color": "rgba(14, 102, 66, 1"
 }

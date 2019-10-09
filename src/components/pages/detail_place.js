@@ -18,7 +18,7 @@ class ShowPedido extends Component {
       <br></br>
       <span className="label-detail">{this.props.name}</span>
       <span className="data-detail">
-        Tania{/* Aquí tiene que cambiar el nombre */}
+        {/* Aquí tiene que cambiar el nombre */}
        </span>
     </div>
        <div className="table-detail-container">

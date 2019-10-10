@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/\pandmonium\node_modules
+/pandmonium
 /.pnp
 .pnp.js
 

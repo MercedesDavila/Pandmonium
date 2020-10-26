@@ -221,9 +221,11 @@ Este proyecto fue desarrollado e implementado por:
   
 ##  ¿Cómo ejecutar este proyecto?
 
-Solo necesitas un navegador y dar click en el siguiente link:
+Solo necesitas un navegador y click en el siguiente link:
 
 [Pan D'monium](https://mercedesdavila.github.io/Pandmonium/).
+
+Ingresar con el código : 123456
 
 
 
